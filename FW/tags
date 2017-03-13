@@ -1,0 +1,527 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-set-section-flags	Arduino-Makefile/Arduino.mk	/^	-$(OBJCOPY) -j .eeprom --set-section-flags=.eeprom='alloc,load' \\$/;"	m
+ALTERNATE_CORE	Arduino-Makefile/chipKIT.mk	/^ALTERNATE_CORE = pic32$/;"	m
+ALTERNATE_CORE	Arduino-Makefile/examples/ATtinyBlink/Makefile	/^ALTERNATE_CORE = attiny$/;"	m
+ALTERNATE_CORE	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^ALTERNATE_CORE = tiny$/;"	m
+ALTERNATE_CORE	Arduino-Makefile/examples/TinySoftWareSerial/Makefile	/^ALTERNATE_CORE = attiny$/;"	m
+ALTERNATE_CORE_PATH	Arduino-Makefile/Arduino.mk	/^        ALTERNATE_CORE_PATH = $(ARDUINO_SKETCHBOOK)\/hardware\/$(ALTERNATE_CORE)\/$(ARCHITECTURE)$/;"	m
+ALTERNATE_CORE_PATH	Arduino-Makefile/chipKIT.mk	/^ALTERNATE_CORE_PATH = $(MPIDE_DIR)\/hardware\/pic32$/;"	m
+AR	Arduino-Makefile/Arduino.mk	/^    AR      = $(AVR_TOOLS_PATH)\/$(AR_NAME)$/;"	m
+AR	Arduino-Makefile/chipKIT.mk	/^AR      = $(PIC32_TOOLS_PATH)\/$(AR_NAME)$/;"	m
+ARCHITECTURE	Arduino-Makefile/Arduino.mk	/^        ARCHITECTURE = avr$/;"	m
+ARCHITECTURE	Arduino-Makefile/Arduino.mk	/^        ARCHITECTURE =$/;"	m
+ARCHITECTURE	Arduino-Makefile/Teensy.mk	/^ARCHITECTURE  = $(call PARSE_TEENSY,$(BOARD_TAG),build.architecture)$/;"	m
+ARDMK_DIR	Arduino-Makefile/Arduino.mk	/^    ARDMK_DIR := $(realpath $(dir $(realpath $(lastword $(MAKEFILE_LIST)))))$/;"	m
+ARDMK_DIR	Arduino-Makefile/Teensy.mk	/^    ARDMK_DIR := $(realpath $(dir $(realpath $(lastword $(MAKEFILE_LIST)))))$/;"	m
+ARDMK_DIR	Arduino-Makefile/chipKIT.mk	/^    ARDMK_DIR := $(realpath $(dir $(realpath $(lastword $(MAKEFILE_LIST)))))$/;"	m
+ARDMK_DIR	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^ARDMK_DIR         = $(PROJECT_DIR)\/Arduino-Makefile$/;"	m
+ARDMK_DIR	Makefile	/^ARDMK_DIR         = $(PROJECT_DIR)\/Arduino-Makefile$/;"	m
+ARDMK_DIR_MSG	Arduino-Makefile/Arduino.mk	/^    ARDMK_DIR_MSG = USER$/;"	m
+ARDMK_VENDOR	Arduino-Makefile/Arduino.mk	/^	ARDMK_VENDOR = arduino$/;"	m
+ARDMK_VENDOR	Arduino-Makefile/Teensy.mk	/^ARDMK_VENDOR        = teensy$/;"	m
+ARDMK_VERSION	Arduino-Makefile/Arduino.mk	/^ARDMK_VERSION = 1.5$/;"	m
+ARDUINO_ARCH_FLAG	Arduino-Makefile/Arduino.mk	/^            ARDUINO_ARCH_FLAG = -DARDUINO_ARCH_$(shell echo $(ARCHITECTURE) | tr '[:lower:]' '[:upper:]')$/;"	m
+ARDUINO_ARCH_FLAG	Arduino-Makefile/Arduino.mk	/^            ARDUINO_ARCH_FLAG = -DARDUINO_ARCH_SAM$/;"	m
+ARDUINO_ARCH_FLAG	Arduino-Makefile/Arduino.mk	/^        ARDUINO_ARCH_FLAG = -DARDUINO_ARCH_AVR$/;"	m
+ARDUINO_CORE_PATH	Arduino-Makefile/Arduino.mk	/^            ARDUINO_CORE_PATH = $(ARDUINO_DIR)\/hardware\/$(ARDMK_VENDOR)\/$(ARCHITECTURE)\/cores\/$(CORE)$/;"	m
+ARDUINO_CORE_PATH	Arduino-Makefile/Arduino.mk	/^        ARDUINO_CORE_PATH = $(ALTERNATE_CORE_PATH)\/cores\/$(CORE)$/;"	m
+ARDUINO_CORE_PATH	Arduino-Makefile/Arduino.mk	/^        ARDUINO_CORE_PATH = $(ARDUINO_DIR)\/hardware\/$(ARDMK_VENDOR)\/$(ARCHITECTURE)\/cores\/arduino$/;"	m
+ARDUINO_CORE_PATH	Arduino-Makefile/Teensy.mk	/^ARDUINO_CORE_PATH   = $(ARDUINO_DIR)\/hardware\/teensy\/cores\/teensy3$/;"	m
+ARDUINO_CORE_PATH	Arduino-Makefile/chipKIT.mk	/^ARDUINO_CORE_PATH = $(ALTERNATE_CORE_PATH)\/cores\/$(ALTERNATE_CORE)$/;"	m
+ARDUINO_DIR	Arduino-Makefile/Common.mk	/^              ARDUINO_DIR = $(DEPENDENCIES_ARDUINO_DIR)$/;"	m
+ARDUINO_DIR	Arduino-Makefile/Common.mk	/^       ARDUINO_DIR = $(AUTO_ARDUINO_DIR)$/;"	m
+ARDUINO_DIR	Arduino-Makefile/chipKIT.mk	/^ARDUINO_DIR = $(MPIDE_DIR)$/;"	m
+ARDUINO_DIR	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^ARDUINO_DIR       = \/Applications\/Arduino.app\/Contents\/Java$/;"	m
+ARDUINO_DIR	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^ARDUINO_DIR       = \/usr\/share\/arduino$/;"	m
+ARDUINO_DIR	Makefile	/^ARDUINO_DIR       = \/usr\/share\/arduino$/;"	m
+ARDUINO_HEADER	Arduino-Makefile/Arduino.mk	/^        ARDUINO_HEADER=Arduino.h$/;"	m
+ARDUINO_HEADER	Arduino-Makefile/Arduino.mk	/^        ARDUINO_HEADER=WProgram.h$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/AnalogInOutSerial/Makefile	/^ARDUINO_LIBS =$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/BlinkChipKIT/Makefile	/^ARDUINO_LIBS =$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/BlinkTeensy/Makefile	/^ARDUINO_LIBS =$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/BlinkWithoutDelay/Makefile	/^ARDUINO_LIBS =$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/Fade/Makefile	/^ARDUINO_LIBS =$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/HelloWorld/Makefile	/^ARDUINO_LIBS = LiquidCrystal$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/TinySoftWareSerial/Makefile	/^ARDUINO_LIBS = SoftwareSerial$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/WebServer/Makefile	/^ARDUINO_LIBS = Ethernet SPI$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/master_reader/Makefile	/^ARDUINO_LIBS = Wire$/;"	m
+ARDUINO_LIBS	Arduino-Makefile/examples/toneMelody/Makefile	/^ARDUINO_LIBS =$/;"	m
+ARDUINO_LIB_PATH	Arduino-Makefile/Arduino.mk	/^    ARDUINO_LIB_PATH = $(ARDUINO_DIR)\/libraries$/;"	m
+ARDUINO_PLATFORM_LIB_PATH	Arduino-Makefile/Arduino.mk	/^        ARDUINO_PLATFORM_LIB_PATH = $(ARDUINO_DIR)\/hardware\/$(ARDMK_VENDOR)\/$(ARCHITECTURE)\/libraries$/;"	m
+ARDUINO_PREFERENCES_PATH	Arduino-Makefile/Arduino.mk	/^           ARDUINO_PREFERENCES_PATH = $(AUTO_ARDUINO_PREFERENCES)$/;"	m
+ARDUINO_PREFERENCES_PATH	Arduino-Makefile/chipKIT.mk	/^ARDUINO_PREFERENCES_PATH = $(MPIDE_PREFERENCES_PATH)$/;"	m
+ARDUINO_SKETCHBOOK	Arduino-Makefile/Arduino.mk	/^        ARDUINO_SKETCHBOOK := $(firstword \\$/;"	m
+ARDUINO_SKETCHBOOK	Arduino-Makefile/Arduino.mk	/^        ARDUINO_SKETCHBOOK := $(shell grep --max-count=1 --regexp='sketchbook.path=' \\$/;"	m
+ARDUINO_VAR_PATH	Arduino-Makefile/Arduino.mk	/^        ARDUINO_VAR_PATH  = $(ALTERNATE_CORE_PATH)\/variants$/;"	m
+ARDUINO_VAR_PATH	Arduino-Makefile/Arduino.mk	/^        ARDUINO_VAR_PATH  = $(ARDUINO_DIR)\/hardware\/$(ARDMK_VENDOR)\/$(ARCHITECTURE)\/variants$/;"	m
+ARDUINO_VERSION	Arduino-Makefile/Arduino.mk	/^        ARDUINO_VERSION = $(AUTO_ARDUINO_VERSION)$/;"	m
+ARDUINO_VERSION	Arduino-Makefile/Arduino.mk	/^        ARDUINO_VERSION = 100$/;"	m
+ARDUINO_VERSION	Arduino-Makefile/chipKIT.mk	/^ARDUINO_VERSION = 23$/;"	m
+ARD_RESET_ARDUINO	Arduino-Makefile/Arduino.mk	/^		ARD_RESET_ARDUINO = $(ARDMK_DIR)\/bin\/ard-reset-arduino$/;"	m
+ARD_RESET_ARDUINO	Arduino-Makefile/Arduino.mk	/^	ARD_RESET_ARDUINO := $(shell which ard-reset-arduino 2> \/dev\/null)$/;"	m
+AR_NAME	Arduino-Makefile/Arduino.mk	/^        AR_NAME      = avr-ar$/;"	m
+AR_NAME	Arduino-Makefile/Arduino.mk	/^        AR_NAME      = avr-gcc-ar$/;"	m
+AR_NAME	Arduino-Makefile/Teensy.mk	/^        AR_NAME := arm-none-eabi-ar$/;"	m
+AR_NAME	Arduino-Makefile/Teensy.mk	/^    AR_NAME := $(call PARSE_TEENSY,$(BOARD_TAG),build.command.ar)$/;"	m
+AR_NAME	Arduino-Makefile/chipKIT.mk	/^AR_NAME = pic32-ar$/;"	m
+AS	Arduino-Makefile/Arduino.mk	/^    AS      = $(AVR_TOOLS_PATH)\/$(AS_NAME)$/;"	m
+AS	Arduino-Makefile/chipKIT.mk	/^AS      = $(PIC32_TOOLS_PATH)\/$(AS_NAME)$/;"	m
+AS_NAME	Arduino-Makefile/Teensy.mk	/^        AS_NAME := arm-none-eabi-gcc-as$/;"	m
+AS_NAME	Arduino-Makefile/Teensy.mk	/^    AS_NAME := $(call PARSE_TEENSY,$(BOARD_TAG),build.command.as)$/;"	m
+AUTO_ARDUINO_DIR	Arduino-Makefile/Common.mk	/^    AUTO_ARDUINO_DIR := $(firstword \\$/;"	m
+AUTO_ARDUINO_PREFERENCES	Arduino-Makefile/Arduino.mk	/^            AUTO_ARDUINO_PREFERENCES := $(firstword \\$/;"	m
+AUTO_ARDUINO_VERSION	Arduino-Makefile/Arduino.mk	/^    AUTO_ARDUINO_VERSION := $(shell [ -e $(VERSION_FILE) ] && cat $(VERSION_FILE) | sed -e 's\/^[0-9]:\/\/g' -e 's\/[.]\/\/g' -e 's\/\\+.*\/\/g' | head -c5)$/;"	m
+AUTO_MPIDE_DIR	Arduino-Makefile/chipKIT.mk	/^    AUTO_MPIDE_DIR := $(firstword \\$/;"	m
+AUTO_MPIDE_PREFERENCES_PATH	Arduino-Makefile/chipKIT.mk	/^    AUTO_MPIDE_PREFERENCES_PATH := $(firstword \\$/;"	m
+AVRDDUDE	Makefile	/^AVRDDUDE          = \/usr\/bin\/avrdude$/;"	m
+AVRDUDE	Arduino-Makefile/Arduino.mk	/^                    AVRDUDE = $(AVR_TOOLS_DIR)\/..\/avrdude$/;"	m
+AVRDUDE	Arduino-Makefile/Arduino.mk	/^                    AVRDUDE = $(AVR_TOOLS_DIR)\/bin\/avrdude$/;"	m
+AVRDUDE	Arduino-Makefile/Arduino.mk	/^    AVRDUDE          = $(AVR_TOOLS_PATH)\/avrdude$/;"	m
+AVRDUDE	Arduino-Makefile/Teensy.mk	/^AVRDUDE=@true$/;"	m
+AVRDUDE	Arduino-Makefile/chipKIT.mk	/^    AVRDUDE = $(AVRDUDE_DIR)\/avrdude$/;"	m
+AVRDUDE	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^AVRDUDE          = \/usr\/bin\/avrdude$/;"	m
+AVRDUDE	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^AVRDUDE          = \/usr\/local\/bin\/avrdude$/;"	m
+AVRDUDE_ARD_BAUDRATE	Arduino-Makefile/Arduino.mk	/^            AVRDUDE_ARD_BAUDRATE := $(call PARSE_BOARD,$(BOARD_TAG),upload.speed)$/;"	m
+AVRDUDE_ARD_BAUDRATE	Arduino-Makefile/Arduino.mk	/^        AVRDUDE_ARD_BAUDRATE := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).upload.speed)$/;"	m
+AVRDUDE_ARD_OPTS	Arduino-Makefile/Arduino.mk	/^AVRDUDE_ARD_OPTS = -D -c $(AVRDUDE_ARD_PROGRAMMER) -b $(AVRDUDE_ARD_BAUDRATE) -P$/;"	m
+AVRDUDE_ARD_PROGRAMMER	Arduino-Makefile/Arduino.mk	/^            AVRDUDE_ARD_PROGRAMMER := $(call PARSE_BOARD,$(BOARD_TAG),upload.protocol)$/;"	m
+AVRDUDE_ARD_PROGRAMMER	Arduino-Makefile/Arduino.mk	/^        AVRDUDE_ARD_PROGRAMMER := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).upload.protocol)$/;"	m
+AVRDUDE_COM_OPTS	Arduino-Makefile/Arduino.mk	/^AVRDUDE_COM_OPTS = $(AVRDUDE_OPTS) -p $(AVRDUDE_MCU)$/;"	m
+AVRDUDE_CONF	Arduino-Makefile/Arduino.mk	/^                    AVRDUDE_CONF = $(AVR_TOOLS_DIR)\/..\/avrdude.conf$/;"	m
+AVRDUDE_CONF	Arduino-Makefile/Arduino.mk	/^                    AVRDUDE_CONF = $(AVR_TOOLS_DIR)\/etc\/avrdude.conf$/;"	m
+AVRDUDE_CONF	Arduino-Makefile/Arduino.mk	/^                AVRDUDE_CONF  = $(AVR_TOOLS_DIR)\/etc\/avrdude.conf$/;"	m
+AVRDUDE_CONF	Arduino-Makefile/Arduino.mk	/^            AVRDUDE_CONF = $(AVR_TOOLS_DIR)\/..\/avrdude.conf$/;"	m
+AVRDUDE_CONF	Arduino-Makefile/Arduino.mk	/^            AVRDUDE_CONF = $(AVR_TOOLS_DIR)\/etc\/avrdude.conf$/;"	m
+AVRDUDE_CONF	Arduino-Makefile/chipKIT.mk	/^    AVRDUDE_CONF = $(AVRDUDE_DIR)\/avrdude.conf$/;"	m
+AVRDUDE_CONF	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^AVRDUDE_CONF=\/usr\/local\/etc\/avrdude.conf$/;"	m
+AVRDUDE_DIR	Arduino-Makefile/chipKIT.mk	/^    AVRDUDE_DIR = $(ARDUINO_DIR)\/hardware\/tools$/;"	m
+AVRDUDE_ISPLOAD_OPTS	Arduino-Makefile/Arduino.mk	/^AVRDUDE_ISPLOAD_OPTS = $(AVRDUDE_UPLOAD_HEX)$/;"	m
+AVRDUDE_ISP_BAUDRATE	Arduino-Makefile/Arduino.mk	/^        AVRDUDE_ISP_BAUDRATE = $(AVRDUDE_ARD_BAUDRATE)$/;"	m
+AVRDUDE_ISP_BAUDRATE	Arduino-Makefile/Arduino.mk	/^        AVRDUDE_ISP_BAUDRATE = 19200$/;"	m
+AVRDUDE_ISP_BAUDRATE	Arduino-Makefile/examples/BlinkInAVRC/Makefile	/^AVRDUDE_ISP_BAUDRATE = 19200$/;"	m
+AVRDUDE_ISP_OPTS	Arduino-Makefile/Arduino.mk	/^AVRDUDE_ISP_OPTS = -c $(ISP_PROG) -b $(AVRDUDE_ISP_BAUDRATE)$/;"	m
+AVRDUDE_MCU	Arduino-Makefile/Arduino.mk	/^  AVRDUDE_MCU = $(MCU)$/;"	m
+AVRDUDE_OPTS	Arduino-Makefile/Arduino.mk	/^    AVRDUDE_OPTS = -q -V$/;"	m
+AVRDUDE_UPLOAD_EEP	Arduino-Makefile/Arduino.mk	/^AVRDUDE_UPLOAD_EEP = -U eeprom:w:$(TARGET_EEP):i$/;"	m
+AVRDUDE_UPLOAD_HEX	Arduino-Makefile/Arduino.mk	/^AVRDUDE_UPLOAD_HEX = -U flash:w:$(TARGET_HEX):i$/;"	m
+AVRDUDE_UPLOAD_PIPE	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^AVRDUDE_UPLOAD_PIPE = -U flash:w:-:i$/;"	m
+AVR_GCC_VERSION	Makefile	/^AVR_GCC_VERSION  := $(shell expr `avr-gcc -dumpversion | cut -f1` \\>= 4.9)$/;"	m
+AVR_TOOLS_DIR	Arduino-Makefile/Arduino.mk	/^            AVR_TOOLS_DIR = $(SYSTEMPATH_AVR_TOOLS_DIR)$/;"	m
+AVR_TOOLS_DIR	Arduino-Makefile/Arduino.mk	/^        AVR_TOOLS_DIR     = $(BUNDLED_AVR_TOOLS_DIR)$/;"	m
+AVR_TOOLS_DIR	Arduino-Makefile/Teensy.mk	/^AVR_TOOLS_DIR = $(call dir_if_exists,$(ARDUINO_DIR)\/hardware\/tools\/$(ARCHITECTURE))$/;"	m
+AVR_TOOLS_DIR	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^AVR_TOOLS_DIR     = \/usr$/;"	m
+AVR_TOOLS_DIR	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^AVR_TOOLS_DIR     = \/usr\/local$/;"	m
+AVR_TOOLS_DIR	Makefile	/^AVR_TOOLS_DIR     = \/usr$/;"	m
+AVR_TOOLS_PATH	Arduino-Makefile/Arduino.mk	/^    AVR_TOOLS_PATH    = $(AVR_TOOLS_DIR)\/bin$/;"	m
+BOARDS_TXT	Arduino-Makefile/Arduino.mk	/^        BOARDS_TXT  = $(ALTERNATE_CORE_PATH)\/boards.txt$/;"	m
+BOARDS_TXT	Arduino-Makefile/Arduino.mk	/^        BOARDS_TXT  = $(ARDUINO_DIR)\/hardware\/$(ARDMK_VENDOR)\/$(ARCHITECTURE)\/boards.txt$/;"	m
+BOARDS_TXT	Arduino-Makefile/Teensy.mk	/^BOARDS_TXT          = $(ARDUINO_DIR)\/hardware\/$(ARDMK_VENDOR)\/boards.txt$/;"	m
+BOARD_SUB	Arduino-Makefile/Arduino.mk	/^    BOARD_SUB := $(strip $(BOARD_SUB))$/;"	m
+BOARD_SUB	Arduino-Makefile/examples/TinySoftWareSerial/Makefile	/^BOARD_SUB    = attiny85$/;"	m
+BOARD_TAG	Arduino-Makefile/Arduino.mk	/^    BOARD_TAG   = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/Arduino.mk	/^    BOARD_TAG := $(strip $(BOARD_TAG))$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/ATtinyBlink/Makefile	/^BOARD_TAG    = attiny85-8$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/AnalogInOutSerial/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/Blink/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/BlinkChipKIT/Makefile	/^BOARD_TAG    = mega_pic32$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/BlinkInAVRC/Makefile	/^BOARD_TAG    = atmega16$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^BOARD_TAG = attiny85at8$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/BlinkTeensy/Makefile	/^BOARD_TAG    = teensy31$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/BlinkWithoutDelay/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/Fade/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/HelloWorld/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^BOARD_TAG         = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/SerialPrint/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/TinySoftWareSerial/Makefile	/^BOARD_TAG    = attiny$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/WebServer/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/master_reader/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Arduino-Makefile/examples/toneMelody/Makefile	/^BOARD_TAG    = uno$/;"	m
+BOARD_TAG	Makefile	/^BOARD_TAG         = mega2560$/;"	m
+BOOTLOADER_FILE	Arduino-Makefile/Arduino.mk	/^            BOOTLOADER_FILE := $(call PARSE_BOARD,$(BOARD_TAG),bootloader.file)$/;"	m
+BOOTLOADER_FILE	Arduino-Makefile/Arduino.mk	/^        BOOTLOADER_FILE := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).bootloader.file)$/;"	m
+BOOTLOADER_PARENT	Arduino-Makefile/Arduino.mk	/^    BOOTLOADER_PARENT = $(ARDUINO_DIR)\/hardware\/$(ARDMK_VENDOR)\/$(ARCHITECTURE)\/bootloaders$/;"	m
+BOOTLOADER_PATH	Arduino-Makefile/Arduino.mk	/^        BOOTLOADER_PATH = $(call PARSE_BOARD,$(BOARD_TAG),bootloader.path)$/;"	m
+BUNDLED_AVR_TOOLS_DIR	Arduino-Makefile/Arduino.mk	/^    BUNDLED_AVR_TOOLS_DIR := $(call dir_if_exists,$(ARDUINO_DIR)\/hardware\/tools\/avr)$/;"	m
+CAT	Arduino-Makefile/Arduino.mk	/^CAT     = cat$/;"	m
+CATERINA	Arduino-Makefile/Arduino.mk	/^        CATERINA := $(findstring caterina,$(call PARSE_BOARD,$(BOARD_TAG),bootloader.file))$/;"	m
+CATERINA	Arduino-Makefile/Arduino.mk	/^        CATERINA := $(findstring caterina,$(call PARSE_BOARD,$(BOARD_TAG),bootloader.path))$/;"	m
+CATERINA	Arduino-Makefile/Arduino.mk	/^    CATERINA := $(findstring caterina,$(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).bootloader.file))$/;"	m
+CAT_HEX	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^CAT_HEX = cat $(TARGET_HEX)$/;"	m
+CC	Arduino-Makefile/Arduino.mk	/^    CC      = $(AVR_TOOLS_PATH)\/$(CC_NAME)$/;"	m
+CC	Arduino-Makefile/chipKIT.mk	/^CC      = $(PIC32_TOOLS_PATH)\/$(CC_NAME)$/;"	m
+CC_NAME	Arduino-Makefile/Arduino.mk	/^CC_NAME      = avr-gcc$/;"	m
+CC_NAME	Arduino-Makefile/Teensy.mk	/^        CC_NAME := arm-none-eabi-gcc$/;"	m
+CC_NAME	Arduino-Makefile/Teensy.mk	/^    CC_NAME := $(call PARSE_TEENSY,$(BOARD_TAG),build.command.gcc)$/;"	m
+CC_NAME	Arduino-Makefile/chipKIT.mk	/^CC_NAME = pic32-gcc$/;"	m
+CC_VERNUM	Arduino-Makefile/Arduino.mk	/^CC_VERNUM = $(shell $(CC) -dumpversion | sed 's\/\\.\/\/g')$/;"	m
+CC_VERSION	Arduino-Makefile/Arduino.mk	/^CC_VERSION := $(shell $(CC) -dumpversion)$/;"	m
+CFLAGS_STD	Arduino-Makefile/Arduino.mk	/^        CFLAGS_STD        =$/;"	m
+CFLAGS_STD	Arduino-Makefile/Arduino.mk	/^        CFLAGS_STD      = -std=gnu11 -flto -fno-fat-lto-objects$/;"	m
+CFLAGS_STD	Arduino-Makefile/chipKIT.mk	/^CFLAGS_STD =$/;"	m
+CFLAGS_STD	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^CFLAGS_STD        = -std=gnu11$/;"	m
+CFLAGS_STD	Makefile	/^CFLAGS_STD        = -std=gnu11$/;"	m
+COMMON_DEPS	Arduino-Makefile/Arduino.mk	/^    COMMON_DEPS := $(COMMON_DEPS) $(MAKEFILE_LIST)$/;"	m
+COMMON_DEPS	Arduino-Makefile/Arduino.mk	/^    COMMON_DEPS := $(MAKEFILE_LIST)$/;"	m
+COM_PORT_ID	Arduino-Makefile/Arduino.mk	/^        COM_PORT_ID = $(subst com,,$(MONITOR_PORT))$/;"	m
+COM_STYLE_MONITOR_PORT	Arduino-Makefile/Arduino.mk	/^        COM_STYLE_MONITOR_PORT = com$(COM_PORT_ID)$/;"	m
+CORE	Arduino-Makefile/Arduino.mk	/^        CORE = $(shell echo $(call PARSE_BOARD,$(BOARD_TAG),build.core) | cut -d : -f 2)$/;"	m
+CORE_AS_SRCS	Arduino-Makefile/Arduino.mk	/^        CORE_AS_SRCS    = $(wildcard $(ARDUINO_CORE_PATH)\/*.S)$/;"	m
+CORE_AS_SRCS	Arduino-Makefile/chipKIT.mk	/^CORE_AS_SRCS = $(ARDUINO_CORE_PATH)\/vector_table.S \\$/;"	m
+CORE_CPP_SRCS	Arduino-Makefile/Arduino.mk	/^            CORE_CPP_SRCS := $(filter-out %main.cpp, $(CORE_CPP_SRCS))$/;"	m
+CORE_CPP_SRCS	Arduino-Makefile/Arduino.mk	/^        CORE_CPP_SRCS   = $(wildcard $(ARDUINO_CORE_PATH)\/*.cpp)$/;"	m
+CORE_C_SRCS	Arduino-Makefile/Arduino.mk	/^        CORE_C_SRCS     = $(wildcard $(ARDUINO_CORE_PATH)\/*.c)$/;"	m
+CORE_LIB	Arduino-Makefile/Arduino.mk	/^CORE_LIB   = $(OBJDIR)\/libcore.a$/;"	m
+CORE_OBJS	Arduino-Makefile/Arduino.mk	/^        CORE_OBJS       = $(patsubst $(ARDUINO_CORE_PATH)\/%,  \\$/;"	m
+CORE_OBJ_FILES	Arduino-Makefile/Arduino.mk	/^        CORE_OBJ_FILES  = $(CORE_C_SRCS:.c=.c.o) $(CORE_CPP_SRCS:.cpp=.cpp.o) $(CORE_AS_SRCS:.S=.S.o)$/;"	m
+CURRENT_DIR	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^CURRENT_DIR       = $(shell basename $(CURDIR))$/;"	m
+CURRENT_DIR	Makefile	/^CURRENT_DIR       = $(shell basename $(CURDIR))$/;"	m
+CURRENT_OS	Arduino-Makefile/Common.mk	/^        CURRENT_OS = LINUX$/;"	m
+CURRENT_OS	Arduino-Makefile/Common.mk	/^        CURRENT_OS = MAC$/;"	m
+CURRENT_OS	Arduino-Makefile/Common.mk	/^    CURRENT_OS = WINDOWS$/;"	m
+CXX	Arduino-Makefile/Arduino.mk	/^    CXX     = $(AVR_TOOLS_PATH)\/$(CXX_NAME)$/;"	m
+CXX	Arduino-Makefile/chipKIT.mk	/^CXX     = $(PIC32_TOOLS_PATH)\/$(CXX_NAME)$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS         = -pedantic -Wall -Wextra$/;"	m
+CXXFLAGS_STD	Arduino-Makefile/Arduino.mk	/^        CXXFLAGS_STD      = -std=gnu++11 -fno-threadsafe-statics -flto$/;"	m
+CXXFLAGS_STD	Arduino-Makefile/Arduino.mk	/^        CXXFLAGS_STD      =$/;"	m
+CXXFLAGS_STD	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^CXXFLAGS_STD      = -std=gnu++11$/;"	m
+CXXFLAGS_STD	Makefile	/^CXXFLAGS_STD      = -std=gnu++11$/;"	m
+CXX_NAME	Arduino-Makefile/Arduino.mk	/^CXX_NAME     = avr-g++$/;"	m
+CXX_NAME	Arduino-Makefile/Teensy.mk	/^        CXX_NAME := arm-none-eabi-g++$/;"	m
+CXX_NAME	Arduino-Makefile/Teensy.mk	/^    CXX_NAME := $(call PARSE_TEENSY,$(BOARD_TAG),build.command.g++)$/;"	m
+CXX_NAME	Arduino-Makefile/chipKIT.mk	/^CXX_NAME = pic32-g++$/;"	m
+DEBUG_FLAGS	Arduino-Makefile/Arduino.mk	/^    DEBUG_FLAGS = -O0 -g$/;"	m
+DEPENDENCIES_ARDUINO_DIR	Arduino-Makefile/Common.mk	/^       DEPENDENCIES_ARDUINO_DIR = $(DEPENDENCIES_DIR)\/arduino-1.0.6$/;"	m
+DEPENDENCIES_DIR	Arduino-Makefile/Common.mk	/^       DEPENDENCIES_DIR = \/var\/tmp\/Arduino-Makefile-testing-dependencies$/;"	m
+DEPENDENCIES_MPIDE_DIR	Arduino-Makefile/Common.mk	/^       DEPENDENCIES_MPIDE_DIR = $(DEPENDENCIES_DIR)\/mpide-0023-linux64-20130817-test$/;"	m
+DEPS	Arduino-Makefile/Arduino.mk	/^DEPS                = $(LOCAL_OBJS:.o=.d) $(LIB_OBJS:.o=.d) $(PLATFORM_OBJS:.o=.d) $(USER_LIB_OBJS:.o=.d) $(CORE_OBJS:.o=.d)$/;"	m
+DEVICE_PATH	Arduino-Makefile/Arduino.mk	/^        DEVICE_PATH = $(MONITOR_PORT)$/;"	m
+DEVICE_PATH	Arduino-Makefile/Arduino.mk	/^        DEVICE_PATH = \/dev\/ttyS$(shell awk 'BEGIN{ print $(COM_PORT_ID) - 1 }')$/;"	m
+DEVICE_PATH	Arduino-Makefile/Arduino.mk	/^    DEVICE_PATH = $(firstword $(wildcard \\$/;"	m
+DS1307_I2C_ADDRESS	src/sensors_lib.h	6;"	d
+ECHO	Arduino-Makefile/Arduino.mk	/^ECHO    = printf$/;"	m
+ERROR_ON_CATERINA	Arduino-Makefile/Arduino.mk	/^    ERROR_ON_CATERINA = $(error On $(BOARD_TAG), raw_xxx operation is not supported)$/;"	m
+ERROR_ON_CATERINA	Arduino-Makefile/Arduino.mk	/^    ERROR_ON_CATERINA =$/;"	m
+FILE_END	Arduino-Makefile/bin/lib-detection	/^FILE_END = (".c", ".cpp", ".ino")$/;"	v
+FORCE_MONITOR_PORT	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^FORCE_MONITOR_PORT=true$/;"	m
+F_CPU	Arduino-Makefile/Arduino.mk	/^            F_CPU := $(call PARSE_BOARD,$(BOARD_TAG),build.f_cpu)$/;"	m
+F_CPU	Arduino-Makefile/Arduino.mk	/^        F_CPU := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).build.f_cpu)$/;"	m
+F_CPU	Arduino-Makefile/Teensy.mk	/^    F_CPU=96000000$/;"	m
+F_CPU	Arduino-Makefile/examples/BlinkInAVRC/Makefile	/^F_CPU = 8000000L$/;"	m
+F_CPU	Arduino-Makefile/examples/TinySoftWareSerial/Makefile	/^F_CPU        = 16000000L$/;"	m
+HEX_MAXIMUM_SIZE	Arduino-Makefile/Arduino.mk	/^            HEX_MAXIMUM_SIZE := $(call PARSE_BOARD,$(BOARD_TAG),upload.maximum_size)$/;"	m
+HEX_MAXIMUM_SIZE	Arduino-Makefile/Arduino.mk	/^        HEX_MAXIMUM_SIZE := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).upload.maximum_size)$/;"	m
+HOST	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^HOST = root@alarmpi$/;"	m
+ISP_EEPROM	Arduino-Makefile/Arduino.mk	/^    ISP_EEPROM  = 0$/;"	m
+ISP_EXT_FUSE	Arduino-Makefile/Arduino.mk	/^            ISP_EXT_FUSE := $(call PARSE_BOARD,$(BOARD_TAG),bootloader.extended_fuses)$/;"	m
+ISP_EXT_FUSE	Arduino-Makefile/Arduino.mk	/^        ISP_EXT_FUSE := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).bootloader.extended_fuses)$/;"	m
+ISP_HIGH_FUSE	Arduino-Makefile/Arduino.mk	/^            ISP_HIGH_FUSE := $(call PARSE_BOARD,$(BOARD_TAG),bootloader.high_fuses)$/;"	m
+ISP_HIGH_FUSE	Arduino-Makefile/Arduino.mk	/^        ISP_HIGH_FUSE := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).bootloader.high_fuses)$/;"	m
+ISP_LOCK_FUSE_POST	Arduino-Makefile/Arduino.mk	/^        ISP_LOCK_FUSE_POST = $(call PARSE_BOARD,$(BOARD_TAG),bootloader.lock_bits)$/;"	m
+ISP_LOCK_FUSE_PRE	Arduino-Makefile/Arduino.mk	/^        ISP_LOCK_FUSE_PRE = $(call PARSE_BOARD,$(BOARD_TAG),bootloader.unlock_bits)$/;"	m
+ISP_LOW_FUSE	Arduino-Makefile/Arduino.mk	/^            ISP_LOW_FUSE := $(call PARSE_BOARD,$(BOARD_TAG),bootloader.low_fuses)$/;"	m
+ISP_LOW_FUSE	Arduino-Makefile/Arduino.mk	/^        ISP_LOW_FUSE := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).bootloader.low_fuses)$/;"	m
+ISP_PORT	Arduino-Makefile/examples/ATtinyBlink/Makefile	/^ISP_PORT = \/dev\/ttyACM*$/;"	m
+ISP_PROG	Arduino-Makefile/Arduino.mk	/^        ISP_PROG = $(AVRDUDE_ARD_PROGRAMMER)$/;"	m
+ISP_PROG	Arduino-Makefile/Arduino.mk	/^        ISP_PROG = stk500v1$/;"	m
+ISP_PROG	Arduino-Makefile/examples/BlinkInAVRC/Makefile	/^ISP_PROG   = stk500v1$/;"	m
+ISP_PROG	Arduino-Makefile/examples/TinySoftWareSerial/Makefile	/^ISP_PROG = usbasp$/;"	m
+LDSCRIPT	Arduino-Makefile/chipKIT.mk	/^LDSCRIPT = $(call PARSE_BOARD,$(BOARD_TAG),ldscript)$/;"	m
+LDSCRIPT_FILE	Arduino-Makefile/chipKIT.mk	/^LDSCRIPT_FILE = $(ARDUINO_CORE_PATH)\/$(LDSCRIPT)$/;"	m
+LIBS_NOT_FOUND	Arduino-Makefile/Arduino.mk	/^LIBS_NOT_FOUND = $(filter-out $(USER_LIB_NAMES) $(SYS_LIB_NAMES) $(PLATFORM_LIB_NAMES),$(ARDUINO_LIBS))$/;"	m
+LIB_AS_SRCS	Arduino-Makefile/Arduino.mk	/^LIB_AS_SRCS         := $(foreach lib, $(SYS_LIBS),  $(call get_library_files,$(lib),S))$/;"	m
+LIB_CPP_SRCS	Arduino-Makefile/Arduino.mk	/^LIB_CPP_SRCS        := $(foreach lib, $(SYS_LIBS),  $(call get_library_files,$(lib),cpp))$/;"	m
+LIB_C_SRCS	Arduino-Makefile/Arduino.mk	/^LIB_C_SRCS          := $(foreach lib, $(SYS_LIBS),  $(call get_library_files,$(lib),c))$/;"	m
+LIB_OBJS	Arduino-Makefile/Arduino.mk	/^LIB_OBJS            = $(patsubst $(ARDUINO_LIB_PATH)\/%.c,$(OBJDIR)\/libs\/%.c.o,$(LIB_C_SRCS)) \\$/;"	m
+LOCAL_AS_SRCS	Arduino-Makefile/Arduino.mk	/^LOCAL_AS_SRCS   ?= $(wildcard $(SRC_PATH)\/*.S)$/;"	m
+LOCAL_CC_SRCS	Arduino-Makefile/Arduino.mk	/^LOCAL_CC_SRCS   ?= $(wildcard $(SRC_PATH)\/*.cc)$/;"	m
+LOCAL_CPP_SRCS	Arduino-Makefile/Arduino.mk	/^LOCAL_CPP_SRCS  ?= $(wildcard $(SRC_PATH)\/*.cpp)$/;"	m
+LOCAL_C_SRCS	Arduino-Makefile/Arduino.mk	/^LOCAL_C_SRCS    ?= $(wildcard $(SRC_PATH)\/*.c)$/;"	m
+LOCAL_INO_SRCS	Arduino-Makefile/Arduino.mk	/^LOCAL_INO_SRCS  ?= $(wildcard $(SRC_PATH)\/*.ino)$/;"	m
+LOCAL_OBJS	Arduino-Makefile/Arduino.mk	/^LOCAL_OBJS      = $(patsubst %,$(OBJDIR)\/%,$(LOCAL_OBJ_FILES))$/;"	m
+LOCAL_OBJ_FILES	Arduino-Makefile/Arduino.mk	/^LOCAL_OBJ_FILES = $(LOCAL_C_SRCS:.c=.c.o)   $(LOCAL_CPP_SRCS:.cpp=.cpp.o) \\$/;"	m
+LOCAL_PDE_SRCS	Arduino-Makefile/Arduino.mk	/^LOCAL_PDE_SRCS  ?= $(wildcard $(SRC_PATH)\/*.pde)$/;"	m
+LOCAL_SRCS	Arduino-Makefile/Arduino.mk	/^LOCAL_SRCS      = $(LOCAL_C_SRCS)   $(LOCAL_CPP_SRCS) \\$/;"	m
+LSM303_I2C_ADDRES	src/sensors_lib.h	11;"	d
+LSM303_I2C_ADDRES_ACCEL	src/sensors_lib.h	12;"	d
+MCU	Arduino-Makefile/Arduino.mk	/^            MCU := $(call PARSE_BOARD,$(BOARD_TAG),build.mcu)$/;"	m
+MCU	Arduino-Makefile/Arduino.mk	/^        MCU := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).build.mcu)$/;"	m
+MCU	Arduino-Makefile/Teensy.mk	/^    MCU := $(call PARSE_TEENSY,$(BOARD_TAG),build.cpu)$/;"	m
+MCU	Arduino-Makefile/examples/BlinkInAVRC/Makefile	/^MCU = atmega16$/;"	m
+MCU_FLAG_NAME	Arduino-Makefile/Arduino.mk	/^    MCU_FLAG_NAME = mmcu$/;"	m
+MCU_FLAG_NAME	Arduino-Makefile/Teensy.mk	/^    MCU_FLAG_NAME=mcpu$/;"	m
+MCU_FLAG_NAME	Arduino-Makefile/chipKIT.mk	/^MCU_FLAG_NAME=mprocessor$/;"	m
+MKDIR	Arduino-Makefile/Arduino.mk	/^MKDIR   = mkdir -p$/;"	m
+MONITOR_BAUDRATE	Arduino-Makefile/Arduino.mk	/^            MONITOR_BAUDRATE = $(findstring $(SPEED),300 1200 2400 4800 9600 14400 19200 28800 38400 57600 115200)$/;"	m
+MONITOR_BAUDRATE	Arduino-Makefile/Arduino.mk	/^            MONITOR_BAUDRATE = 9600$/;"	m
+MONITOR_BAUDRATE	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^MONITOR_BAUDRATE  = 115200$/;"	m
+MONITOR_BAUDRATE	Makefile	/^MONITOR_BAUDRATE  = 9600$/;"	m
+MONITOR_CMD	Arduino-Makefile/Arduino.mk	/^        MONITOR_CMD = screen$/;"	m
+MONITOR_PORT	Arduino-Makefile/Arduino.mk	/^MONITOR_PORT ?= $(ARDUINO_PORT)$/;"	m
+MONITOR_PORT	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^MONITOR_PORT=\/dev\/spidev0.0$/;"	m
+MONITOR_PORT	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^MONITOR_PORT      = \/dev\/tty.usbmodem*$/;"	m
+MONITOR_PORT	Makefile	/^MONITOR_PORT      = \/dev\/ttyACM*$/;"	m
+MPIDE_DIR	Arduino-Makefile/Common.mk	/^              MPIDE_DIR = $(DEPENDENCIES_MPIDE_DIR)$/;"	m
+MPIDE_DIR	Arduino-Makefile/chipKIT.mk	/^       MPIDE_DIR = $(AUTO_MPIDE_DIR)$/;"	m
+MPIDE_PREFERENCES_PATH	Arduino-Makefile/chipKIT.mk	/^       MPIDE_PREFERENCES_PATH = $(AUTO_MPIDE_PREFERENCES_PATH)$/;"	m
+MPU_6050_I2C_ADDRESS	src/sensors_lib.h	9;"	d
+MV	Arduino-Makefile/Arduino.mk	/^MV      = mv -f$/;"	m
+NM	Arduino-Makefile/Arduino.mk	/^    NM      = $(AVR_TOOLS_PATH)\/$(NM_NAME)$/;"	m
+NM	Arduino-Makefile/chipKIT.mk	/^NM      = $(PIC32_TOOLS_PATH)\/$(NM_NAME)$/;"	m
+NM_NAME	Arduino-Makefile/Arduino.mk	/^NM_NAME      = avr-nm$/;"	m
+NM_NAME	Arduino-Makefile/Teensy.mk	/^        NM_NAME := arm-none-eabi-gcc-nm$/;"	m
+NM_NAME	Arduino-Makefile/Teensy.mk	/^    NM_NAME := $(call PARSE_TEENSY,$(BOARD_TAG),build.command.nm)$/;"	m
+NM_NAME	Arduino-Makefile/chipKIT.mk	/^NM_NAME = pic32-nm$/;"	m
+NOTE_A1	Arduino-Makefile/examples/toneMelody/pitches.h	15;"	d
+NOTE_A2	Arduino-Makefile/examples/toneMelody/pitches.h	27;"	d
+NOTE_A3	Arduino-Makefile/examples/toneMelody/pitches.h	39;"	d
+NOTE_A4	Arduino-Makefile/examples/toneMelody/pitches.h	51;"	d
+NOTE_A5	Arduino-Makefile/examples/toneMelody/pitches.h	63;"	d
+NOTE_A6	Arduino-Makefile/examples/toneMelody/pitches.h	75;"	d
+NOTE_A7	Arduino-Makefile/examples/toneMelody/pitches.h	87;"	d
+NOTE_AS1	Arduino-Makefile/examples/toneMelody/pitches.h	16;"	d
+NOTE_AS2	Arduino-Makefile/examples/toneMelody/pitches.h	28;"	d
+NOTE_AS3	Arduino-Makefile/examples/toneMelody/pitches.h	40;"	d
+NOTE_AS4	Arduino-Makefile/examples/toneMelody/pitches.h	52;"	d
+NOTE_AS5	Arduino-Makefile/examples/toneMelody/pitches.h	64;"	d
+NOTE_AS6	Arduino-Makefile/examples/toneMelody/pitches.h	76;"	d
+NOTE_AS7	Arduino-Makefile/examples/toneMelody/pitches.h	88;"	d
+NOTE_B0	Arduino-Makefile/examples/toneMelody/pitches.h	5;"	d
+NOTE_B1	Arduino-Makefile/examples/toneMelody/pitches.h	17;"	d
+NOTE_B2	Arduino-Makefile/examples/toneMelody/pitches.h	29;"	d
+NOTE_B3	Arduino-Makefile/examples/toneMelody/pitches.h	41;"	d
+NOTE_B4	Arduino-Makefile/examples/toneMelody/pitches.h	53;"	d
+NOTE_B5	Arduino-Makefile/examples/toneMelody/pitches.h	65;"	d
+NOTE_B6	Arduino-Makefile/examples/toneMelody/pitches.h	77;"	d
+NOTE_B7	Arduino-Makefile/examples/toneMelody/pitches.h	89;"	d
+NOTE_C1	Arduino-Makefile/examples/toneMelody/pitches.h	6;"	d
+NOTE_C2	Arduino-Makefile/examples/toneMelody/pitches.h	18;"	d
+NOTE_C3	Arduino-Makefile/examples/toneMelody/pitches.h	30;"	d
+NOTE_C4	Arduino-Makefile/examples/toneMelody/pitches.h	42;"	d
+NOTE_C5	Arduino-Makefile/examples/toneMelody/pitches.h	54;"	d
+NOTE_C6	Arduino-Makefile/examples/toneMelody/pitches.h	66;"	d
+NOTE_C7	Arduino-Makefile/examples/toneMelody/pitches.h	78;"	d
+NOTE_C8	Arduino-Makefile/examples/toneMelody/pitches.h	90;"	d
+NOTE_CS1	Arduino-Makefile/examples/toneMelody/pitches.h	7;"	d
+NOTE_CS2	Arduino-Makefile/examples/toneMelody/pitches.h	19;"	d
+NOTE_CS3	Arduino-Makefile/examples/toneMelody/pitches.h	31;"	d
+NOTE_CS4	Arduino-Makefile/examples/toneMelody/pitches.h	43;"	d
+NOTE_CS5	Arduino-Makefile/examples/toneMelody/pitches.h	55;"	d
+NOTE_CS6	Arduino-Makefile/examples/toneMelody/pitches.h	67;"	d
+NOTE_CS7	Arduino-Makefile/examples/toneMelody/pitches.h	79;"	d
+NOTE_CS8	Arduino-Makefile/examples/toneMelody/pitches.h	91;"	d
+NOTE_D1	Arduino-Makefile/examples/toneMelody/pitches.h	8;"	d
+NOTE_D2	Arduino-Makefile/examples/toneMelody/pitches.h	20;"	d
+NOTE_D3	Arduino-Makefile/examples/toneMelody/pitches.h	32;"	d
+NOTE_D4	Arduino-Makefile/examples/toneMelody/pitches.h	44;"	d
+NOTE_D5	Arduino-Makefile/examples/toneMelody/pitches.h	56;"	d
+NOTE_D6	Arduino-Makefile/examples/toneMelody/pitches.h	68;"	d
+NOTE_D7	Arduino-Makefile/examples/toneMelody/pitches.h	80;"	d
+NOTE_D8	Arduino-Makefile/examples/toneMelody/pitches.h	92;"	d
+NOTE_DS1	Arduino-Makefile/examples/toneMelody/pitches.h	9;"	d
+NOTE_DS2	Arduino-Makefile/examples/toneMelody/pitches.h	21;"	d
+NOTE_DS3	Arduino-Makefile/examples/toneMelody/pitches.h	33;"	d
+NOTE_DS4	Arduino-Makefile/examples/toneMelody/pitches.h	45;"	d
+NOTE_DS5	Arduino-Makefile/examples/toneMelody/pitches.h	57;"	d
+NOTE_DS6	Arduino-Makefile/examples/toneMelody/pitches.h	69;"	d
+NOTE_DS7	Arduino-Makefile/examples/toneMelody/pitches.h	81;"	d
+NOTE_DS8	Arduino-Makefile/examples/toneMelody/pitches.h	93;"	d
+NOTE_E1	Arduino-Makefile/examples/toneMelody/pitches.h	10;"	d
+NOTE_E2	Arduino-Makefile/examples/toneMelody/pitches.h	22;"	d
+NOTE_E3	Arduino-Makefile/examples/toneMelody/pitches.h	34;"	d
+NOTE_E4	Arduino-Makefile/examples/toneMelody/pitches.h	46;"	d
+NOTE_E5	Arduino-Makefile/examples/toneMelody/pitches.h	58;"	d
+NOTE_E6	Arduino-Makefile/examples/toneMelody/pitches.h	70;"	d
+NOTE_E7	Arduino-Makefile/examples/toneMelody/pitches.h	82;"	d
+NOTE_F1	Arduino-Makefile/examples/toneMelody/pitches.h	11;"	d
+NOTE_F2	Arduino-Makefile/examples/toneMelody/pitches.h	23;"	d
+NOTE_F3	Arduino-Makefile/examples/toneMelody/pitches.h	35;"	d
+NOTE_F4	Arduino-Makefile/examples/toneMelody/pitches.h	47;"	d
+NOTE_F5	Arduino-Makefile/examples/toneMelody/pitches.h	59;"	d
+NOTE_F6	Arduino-Makefile/examples/toneMelody/pitches.h	71;"	d
+NOTE_F7	Arduino-Makefile/examples/toneMelody/pitches.h	83;"	d
+NOTE_FS1	Arduino-Makefile/examples/toneMelody/pitches.h	12;"	d
+NOTE_FS2	Arduino-Makefile/examples/toneMelody/pitches.h	24;"	d
+NOTE_FS3	Arduino-Makefile/examples/toneMelody/pitches.h	36;"	d
+NOTE_FS4	Arduino-Makefile/examples/toneMelody/pitches.h	48;"	d
+NOTE_FS5	Arduino-Makefile/examples/toneMelody/pitches.h	60;"	d
+NOTE_FS6	Arduino-Makefile/examples/toneMelody/pitches.h	72;"	d
+NOTE_FS7	Arduino-Makefile/examples/toneMelody/pitches.h	84;"	d
+NOTE_G1	Arduino-Makefile/examples/toneMelody/pitches.h	13;"	d
+NOTE_G2	Arduino-Makefile/examples/toneMelody/pitches.h	25;"	d
+NOTE_G3	Arduino-Makefile/examples/toneMelody/pitches.h	37;"	d
+NOTE_G4	Arduino-Makefile/examples/toneMelody/pitches.h	49;"	d
+NOTE_G5	Arduino-Makefile/examples/toneMelody/pitches.h	61;"	d
+NOTE_G6	Arduino-Makefile/examples/toneMelody/pitches.h	73;"	d
+NOTE_G7	Arduino-Makefile/examples/toneMelody/pitches.h	85;"	d
+NOTE_GS1	Arduino-Makefile/examples/toneMelody/pitches.h	14;"	d
+NOTE_GS2	Arduino-Makefile/examples/toneMelody/pitches.h	26;"	d
+NOTE_GS3	Arduino-Makefile/examples/toneMelody/pitches.h	38;"	d
+NOTE_GS4	Arduino-Makefile/examples/toneMelody/pitches.h	50;"	d
+NOTE_GS5	Arduino-Makefile/examples/toneMelody/pitches.h	62;"	d
+NOTE_GS6	Arduino-Makefile/examples/toneMelody/pitches.h	74;"	d
+NOTE_GS7	Arduino-Makefile/examples/toneMelody/pitches.h	86;"	d
+NO_CORE	Arduino-Makefile/examples/BlinkInAVRC/Makefile	/^NO_CORE = Yes$/;"	m
+OBJCOPY	Arduino-Makefile/Arduino.mk	/^    OBJCOPY = $(AVR_TOOLS_PATH)\/$(OBJCOPY_NAME)$/;"	m
+OBJCOPY	Arduino-Makefile/chipKIT.mk	/^OBJCOPY = $(PIC32_TOOLS_PATH)\/$(OBJCOPY_NAME)$/;"	m
+OBJCOPY_NAME	Arduino-Makefile/Arduino.mk	/^OBJCOPY_NAME = avr-objcopy$/;"	m
+OBJCOPY_NAME	Arduino-Makefile/Teensy.mk	/^        OBJCOPY_NAME := arm-none-eabi-objcopy$/;"	m
+OBJCOPY_NAME	Arduino-Makefile/Teensy.mk	/^    OBJCOPY_NAME := $(call PARSE_TEENSY,$(BOARD_TAG),build.command.objcopy)$/;"	m
+OBJCOPY_NAME	Arduino-Makefile/chipKIT.mk	/^OBJCOPY_NAME = pic32-objcopy$/;"	m
+OBJDIR	Arduino-Makefile/Arduino.mk	/^        OBJDIR = build-$(BOARD_TAG)-$(BOARD_SUB)$/;"	m
+OBJDIR	Arduino-Makefile/Arduino.mk	/^    OBJDIR = build-$(BOARD_TAG)$/;"	m
+OBJDIR	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^OBJDIR            = $(PROJECT_DIR)\/bin\/$(BOARD_TAG)\/$(CURRENT_DIR)$/;"	m
+OBJDIR	Makefile	/^OBJDIR            = $(PROJECT_DIR)\/bin\/$(CURRENT_DIR)\/$(BOARD_TAG)$/;"	m
+OBJDUMP	Arduino-Makefile/Arduino.mk	/^    OBJDUMP = $(AVR_TOOLS_PATH)\/$(OBJDUMP_NAME)$/;"	m
+OBJDUMP	Arduino-Makefile/chipKIT.mk	/^OBJDUMP = $(PIC32_TOOLS_PATH)\/$(OBJDUMP_NAME)$/;"	m
+OBJDUMP_NAME	Arduino-Makefile/Arduino.mk	/^OBJDUMP_NAME = avr-objdump$/;"	m
+OBJDUMP_NAME	Arduino-Makefile/Teensy.mk	/^        OBJDUMP_NAME := arm-none-eabi-objdump$/;"	m
+OBJDUMP_NAME	Arduino-Makefile/Teensy.mk	/^    OBJDUMP_NAME := $(call PARSE_TEENSY,$(BOARD_TAG),build.command.objdump)$/;"	m
+OBJDUMP_NAME	Arduino-Makefile/chipKIT.mk	/^OBJDUMP_NAME = pic32-objdump$/;"	m
+OPTIMIZATION_FLAGS	Arduino-Makefile/Arduino.mk	/^%SoftwareSerial.cpp.o : OPTIMIZATION_FLAGS = -Os$/;"	m
+OPTIMIZATION_FLAGS	Arduino-Makefile/Arduino.mk	/^OPTIMIZATION_FLAGS = -O$(OPTIMIZATION_LEVEL)$/;"	m
+OPTIMIZATION_FLAGS	Arduino-Makefile/Arduino.mk	/^OPTIMIZATION_FLAGS= $(DEBUG_FLAGS)$/;"	m
+OPTIMIZATION_LEVEL	Arduino-Makefile/Arduino.mk	/^    OPTIMIZATION_LEVEL=s$/;"	m
+OVERRIDE_EXECUTABLES	Arduino-Makefile/chipKIT.mk	/^OVERRIDE_EXECUTABLES = 1$/;"	m
+PARSE_BOARD	Arduino-Makefile/Arduino.mk	/^    PARSE_BOARD = $(shell grep -Ev '^\\#' $(BOARDS_TXT) | grep -E "^[ \\t]*$(1).$(2)=" | cut -d = -f 2)$/;"	m
+PARSE_TEENSY	Arduino-Makefile/Teensy.mk	/^    PARSE_TEENSY = $(shell grep -v "^\\#" "$(BOARDS_TXT)" | grep $(1).$(2) | cut -d = -f 2,3 )$/;"	m
+PIC32_TOOLS_DIR	Arduino-Makefile/chipKIT.mk	/^PIC32_TOOLS_DIR = $(ARDUINO_DIR)\/hardware\/pic32\/compiler\/pic32-tools$/;"	m
+PIC32_TOOLS_PATH	Arduino-Makefile/chipKIT.mk	/^PIC32_TOOLS_PATH = $(PIC32_TOOLS_DIR)\/bin$/;"	m
+PLATFORM_INCLUDES	Arduino-Makefile/Arduino.mk	/^    PLATFORM_INCLUDES     := $(foreach lib, $(PLATFORM_LIBS), $(call get_library_includes,$(lib)))$/;"	m
+PLATFORM_LIBS	Arduino-Makefile/Arduino.mk	/^    PLATFORM_LIBS       := $(sort $(wildcard $(patsubst %,$(ARDUINO_PLATFORM_LIB_PATH)\/%,$(filter-out $(USER_LIB_NAMES),$(ARDUINO_LIBS)))))$/;"	m
+PLATFORM_LIB_AS_SRCS	Arduino-Makefile/Arduino.mk	/^    PLATFORM_LIB_AS_SRCS  := $(foreach lib, $(PLATFORM_LIBS), $(call get_library_files,$(lib),S))$/;"	m
+PLATFORM_LIB_CPP_SRCS	Arduino-Makefile/Arduino.mk	/^    PLATFORM_LIB_CPP_SRCS := $(foreach lib, $(PLATFORM_LIBS), $(call get_library_files,$(lib),cpp))$/;"	m
+PLATFORM_LIB_C_SRCS	Arduino-Makefile/Arduino.mk	/^    PLATFORM_LIB_C_SRCS   := $(foreach lib, $(PLATFORM_LIBS), $(call get_library_files,$(lib),c))$/;"	m
+PLATFORM_LIB_NAMES	Arduino-Makefile/Arduino.mk	/^    PLATFORM_LIB_NAMES  := $(patsubst $(ARDUINO_PLATFORM_LIB_PATH)\/%,%,$(PLATFORM_LIBS))$/;"	m
+PLATFORM_LIB_OBJS	Arduino-Makefile/Arduino.mk	/^    PLATFORM_LIB_OBJS     := $(patsubst $(ARDUINO_PLATFORM_LIB_PATH)\/%.cpp,$(OBJDIR)\/platformlibs\/%.cpp.o,$(PLATFORM_LIB_CPP_SRCS)) \\$/;"	m
+PRE_BUILD_HOOK	Arduino-Makefile/Arduino.mk	/^    PRE_BUILD_HOOK = pre-build-hook.sh$/;"	m
+PROJECT_DIR	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^PROJECT_DIR       = \/Users\/MyUserName\/path\/to\/my\/Project$/;"	m
+PROJECT_DIR	Makefile	/^PROJECT_DIR       = $(realpath .)$/;"	m
+REMOVE	Arduino-Makefile/Arduino.mk	/^REMOVE  = rm -rf$/;"	m
+RESET_CMD	Arduino-Makefile/Arduino.mk	/^            RESET_CMD = $(ARD_RESET_ARDUINO) $(ARD_RESET_OPTS) $(DEVICE_PATH)$/;"	m
+RESET_CMD	Arduino-Makefile/Arduino.mk	/^            RESET_CMD = $(ARD_RESET_ARDUINO) $(ARD_RESET_OPTS) $(call get_monitor_port)$/;"	m
+RESET_CMD	Arduino-Makefile/Arduino.mk	/^            RESET_CMD = $(ARD_RESET_ARDUINO) --caterina $(ARD_RESET_OPTS) $(DEVICE_PATH)$/;"	m
+RESET_CMD	Arduino-Makefile/Arduino.mk	/^            RESET_CMD = $(ARD_RESET_ARDUINO) --caterina $(ARD_RESET_OPTS) $(call get_monitor_port)$/;"	m
+RESET_CMD	Arduino-Makefile/Teensy.mk	/^RESET_CMD = nohup $(ARDUINO_DIR)\/hardware\/tools\/teensy_post_compile -board=$(BOARD_TAG) -tools=$(abspath $(ARDUINO_DIR)\/hardware\/tools) -path=$(abspath $(OBJDIR)) -file=$(TARGET) > \/dev\/null ; $(ARDUINO_DIR)\/hardware\/tools\/teensy_reboot$/;"	m
+S3DVEC	src/sensors_lib.h	/^} S3DVEC;$/;"	t	typeref:struct:S3DVEC_t
+S3DVEC_t	src/sensors_lib.h	/^typedef struct S3DVEC_t{$/;"	s
+SIZE	Arduino-Makefile/Arduino.mk	/^    SIZE    = $(AVR_TOOLS_PATH)\/$(SIZE_NAME)$/;"	m
+SIZE	Arduino-Makefile/chipKIT.mk	/^SIZE    = $(PIC32_TOOLS_PATH)\/$(SIZE_NAME)$/;"	m
+SIZEFLAGS	Arduino-Makefile/Arduino.mk	/^SIZEFLAGS     ?= --mcu=$(MCU) -C$/;"	m
+SIZE_NAME	Arduino-Makefile/Arduino.mk	/^SIZE_NAME    = avr-size$/;"	m
+SIZE_NAME	Arduino-Makefile/Teensy.mk	/^        SIZE_NAME := arm-none-eabi-size$/;"	m
+SIZE_NAME	Arduino-Makefile/Teensy.mk	/^    SIZE_NAME := $(call PARSE_TEENSY,$(BOARD_TAG),build.command.size)$/;"	m
+SIZE_NAME	Arduino-Makefile/chipKIT.mk	/^SIZE_NAME = pic32-size$/;"	m
+SKETCH_LIBS	Arduino-Makefile/Arduino.mk	/^	SKETCH_LIBS := $(shell $(ARDMK_DIR)\/bin\/lib-detection $(USER_LIB_PATH) | \\$/;"	m
+SKETCH_LIBS	Arduino-Makefile/bin/lib-detection	/^SKETCH_LIBS = []$/;"	v
+SKETCH_LIBS	Arduino-Makefile/bin/lib-detection	/^SKETCH_LIBS = sorted(set(SKETCH_LIBS))$/;"	v
+SKETCH_LIBS_DEPS	Arduino-Makefile/Arduino.mk	/^	SKETCH_LIBS_DEPS := $(shell $(ARDMK_DIR)\/bin\/lib-detection $(USER_LIB_PATH) | \\$/;"	m
+SKETCH_LIBS_DEPS	Arduino-Makefile/bin/lib-detection	/^SKETCH_LIBS_DEPS = []$/;"	v
+SKETCH_LIBS_DEPS_STACK	Arduino-Makefile/bin/lib-detection	/^SKETCH_LIBS_DEPS_STACK = []$/;"	v
+SKETCH_LIBS_DEPS_STACK	Arduino-Makefile/bin/lib-detection	/^SKETCH_LIBS_DEPS_STACK = list(set(SKETCH_LIBS_DEPS_STACK))$/;"	v
+SKETCH_SRCS	Arduino-Makefile/bin/lib-detection	/^SKETCH_SRCS = []$/;"	v
+SKETCH_SRCS	Arduino-Makefile/bin/lib-detection	/^SKETCH_SRCS = [f for f in os.listdir(os.curdir) if f.endswith(FILE_END)]$/;"	v
+SPEED	Arduino-Makefile/Arduino.mk	/^            SPEED = $(shell egrep -h 'Serial.begin *\\([0-9]+\\)' $(LOCAL_PDE_SRCS) $(LOCAL_INO_SRCS) | sed -e 's\/[^0-9]\/\/g'| head -n1)$/;"	m
+SRC_PATH	Makefile	/^SRC_PATH          = $(realpath .\/src)$/;"	m
+SSH_AVRDUDE	Arduino-Makefile/examples/BlinkNetworkRPi/Makefile	/^SSH_AVRDUDE = ssh $(HOST) \/usr\/local\/bin\/avrdude$/;"	m
+SYSTEMPATH_AVR_TOOLS_DIR	Arduino-Makefile/Arduino.mk	/^        SYSTEMPATH_AVR_TOOLS_DIR := $(call dir_if_exists,$(abspath $(dir $(shell which $(CC_NAME)))\/..))$/;"	m
+SYS_INCLUDES	Arduino-Makefile/Arduino.mk	/^SYS_INCLUDES        := $(foreach lib, $(SYS_LIBS),  $(call get_library_includes,$(lib)))$/;"	m
+SYS_LIBS	Arduino-Makefile/Arduino.mk	/^SYS_LIBS       := $(sort $(wildcard $(patsubst %,$(ARDUINO_LIB_PATH)\/%,$(filter-out $(USER_LIB_NAMES),$(ARDUINO_LIBS)))))$/;"	m
+SYS_LIB_NAMES	Arduino-Makefile/Arduino.mk	/^SYS_LIB_NAMES  := $(patsubst $(ARDUINO_LIB_PATH)\/%,%,$(SYS_LIBS))$/;"	m
+TARGET	Arduino-Makefile/Arduino.mk	/^    TARGET = $(notdir $(subst $(space),_,$(CURDIR)))$/;"	m
+TARGET_EEP	Arduino-Makefile/Arduino.mk	/^TARGET_EEP = $(OBJDIR)\/$(TARGET).eep$/;"	m
+TARGET_ELF	Arduino-Makefile/Arduino.mk	/^TARGET_ELF = $(OBJDIR)\/$(TARGET).elf$/;"	m
+TARGET_HEX	Arduino-Makefile/Arduino.mk	/^TARGET_HEX = $(OBJDIR)\/$(TARGET).hex$/;"	m
+TIME_FORMAT	src/sensors_lib.h	/^} TIME_FORMAT;$/;"	t	typeref:struct:TIME_FORMAT_t
+TIME_FORMAT_t	src/sensors_lib.h	/^typedef struct TIME_FORMAT_t {$/;"	s
+UNAME_S	Arduino-Makefile/Common.mk	/^    UNAME_S := $(shell uname -s)$/;"	m
+USB_PID	Arduino-Makefile/Arduino.mk	/^            USB_PID = $(call PARSE_BOARD,$(BOARD_TAG),build.pid)$/;"	m
+USB_TYPE	Arduino-Makefile/Teensy.mk	/^    USB_TYPE = USB_SERIAL$/;"	m
+USB_VID	Arduino-Makefile/Arduino.mk	/^            USB_VID = $(call PARSE_BOARD,$(BOARD_TAG),build.vid)$/;"	m
+USER_INCLUDES	Arduino-Makefile/Arduino.mk	/^USER_INCLUDES       := $(foreach lib, $(USER_LIBS), $(call get_library_includes,$(lib)))$/;"	m
+USER_LIBS	Arduino-Makefile/Arduino.mk	/^USER_LIBS     := $(wildcard $(patsubst %,$(USER_LIB_PATH)\/%,$(ARDUINO_LIBS))) \\$/;"	m
+USER_LIBS	Arduino-Makefile/bin/lib-detection	/^USER_LIBS = []$/;"	v
+USER_LIB_AS_SRCS	Arduino-Makefile/Arduino.mk	/^USER_LIB_AS_SRCS    := $(foreach lib, $(USER_LIBS), $(call get_library_files,$(lib),S))$/;"	m
+USER_LIB_CPP_SRCS	Arduino-Makefile/Arduino.mk	/^USER_LIB_CPP_SRCS   := $(foreach lib, $(USER_LIBS), $(call get_library_files,$(lib),cpp))$/;"	m
+USER_LIB_C_SRCS	Arduino-Makefile/Arduino.mk	/^USER_LIB_C_SRCS     := $(foreach lib, $(USER_LIBS), $(call get_library_files,$(lib),c))$/;"	m
+USER_LIB_NAMES	Arduino-Makefile/Arduino.mk	/^USER_LIB_NAMES := $(patsubst $(USER_LIB_PATH)\/%,%,$(USER_LIBS))$/;"	m
+USER_LIB_OBJS	Arduino-Makefile/Arduino.mk	/^USER_LIB_OBJS       = $(patsubst $(USER_LIB_PATH)\/%.cpp,$(OBJDIR)\/userlibs\/%.cpp.o,$(USER_LIB_CPP_SRCS)) \\$/;"	m
+USER_LIB_PATH	Arduino-Makefile/Arduino.mk	/^    USER_LIB_PATH = $(ARDUINO_SKETCHBOOK)\/libraries$/;"	m
+USER_LIB_PATH	Arduino-Makefile/bin/lib-detection	/^USER_LIB_PATH = sys.argv[1]$/;"	v
+USER_LIB_PATH	Arduino-Makefile/examples/MakefileExample/Makefile-example.mk	/^USER_LIB_PATH    :=  $(PROJECT_DIR)\/lib$/;"	m
+VARIANT	Arduino-Makefile/Arduino.mk	/^            VARIANT := $(call PARSE_BOARD,$(BOARD_TAG),build.variant)$/;"	m
+VARIANT	Arduino-Makefile/Arduino.mk	/^        VARIANT := $(call PARSE_BOARD,$(BOARD_TAG),menu.(chip|cpu).$(BOARD_SUB).build.variant)$/;"	m
+VERSION_FILE	Arduino-Makefile/Arduino.mk	/^    VERSION_FILE := $(ARDUINO_DIR)\/lib\/version.txt$/;"	m
+_cygwin_error	Arduino-Makefile/tests/script/bootstrap/common.sh	/^    _cygwin_error() {$/;"	f
+_install	Arduino-Makefile/tests/script/bootstrap/common.sh	/^    _install() {$/;"	f
+_popd	Arduino-Makefile/tests/script/bootstrap/common.sh	/^    _popd() {$/;"	f
+_pushd	Arduino-Makefile/tests/script/bootstrap/common.sh	/^    _pushd() {$/;"	f
+_wait	Arduino-Makefile/tests/script/bootstrap/common.sh	/^    _wait() {$/;"	f
+arduino_output	Arduino-Makefile/Arduino.mk	/^            arduino_output = $(info $(1))$/;"	m
+arduino_output	Arduino-Makefile/Arduino.mk	/^arduino_output =$/;"	m
+args	Arduino-Makefile/bin/ard-reset-arduino	/^args = parser.parse_args()$/;"	v
+avr_size	Arduino-Makefile/Arduino.mk	/^    avr_size = $(SIZE) $(2)$/;"	m
+avr_size	Arduino-Makefile/Arduino.mk	/^    avr_size = $(SIZE) $(SIZEFLAGS) --format=avr $(1)$/;"	m
+bcdToDec	src/sensors_lib.h	/^inline uint8_t bcdToDec(uint8_t val)$/;"	f
+currentFile	Arduino-Makefile/bin/lib-detection	/^			currentFile = open(os.path.join(USER_LIB_PATH, lib, lib + ".h"))$/;"	v
+currentFile	Arduino-Makefile/bin/lib-detection	/^		currentFile = open(os.path.join(USER_LIB_PATH, lib, lib + ".h"))$/;"	v
+dayOfMonth	src/sensors_lib.h	/^        uint8_t dayOfMonth;                 \/\/ 1-28\/29\/30\/31$/;"	m	struct:TIME_FORMAT_t
+dayOfWeek	src/sensors_lib.h	/^        uint8_t dayOfWeek;                  \/\/ 1-7$/;"	m	struct:TIME_FORMAT_t
+decToBcd	src/sensors_lib.h	/^inline uint8_t decToBcd(uint8_t val)$/;"	f
+die	Arduino-Makefile/tests/script/bootstrap/common.sh	/^    die() {$/;"	f
+dir_if_exists	Arduino-Makefile/Common.mk	/^dir_if_exists = $(if $(wildcard $(1)$(2)),$(1))$/;"	m
+download	Arduino-Makefile/tests/script/bootstrap/common.sh	/^    download() {$/;"	f
+et_monitor_port	Arduino-Makefile/Teensy.mk	/^do_upload: override get_monitor_port=""$/;"	m
+getAcceleration	src/sensors_lib.cpp	/^S3DVEC getAcceleration(){$/;"	f
+getDateRTC	src/sensors_lib.cpp	/^TIME_FORMAT getDateRTC()$/;"	f
+getLSMAccel	src/sensors_lib.cpp	/^S3DVEC getLSMAccel(){$/;"	f
+getMagnet	src/sensors_lib.cpp	/^S3DVEC getMagnet(){$/;"	f
+getRotation	src/sensors_lib.cpp	/^S3DVEC getRotation(){$/;"	f
+getTemperature	src/sensors_lib.cpp	/^uint16_t getTemperature(){$/;"	f
+get_isp_port	Arduino-Makefile/Arduino.mk	/^get_isp_port = $(if $(wildcard $(ISP_PORT)),$(firstword $(wildcard $(ISP_PORT))),$(if $(findstring Xusb,X$(ISP_PORT)),$(ISP_PORT),$(error ISP port $(ISP_PORT) not found!)))$/;"	m
+get_library_files	Arduino-Makefile/Arduino.mk	/^get_library_files  = $(if $(and $(wildcard $(1)\/src), $(wildcard $(1)\/library.properties)), \\$/;"	m
+get_library_includes	Arduino-Makefile/Arduino.mk	/^get_library_includes = $(if $(and $(wildcard $(1)\/src), $(wildcard $(1)\/library.properties)), \\$/;"	m
+get_monitor_port	Arduino-Makefile/Arduino.mk	/^        get_monitor_port = $(COM_STYLE_MONITOR_PORT)$/;"	m
+get_monitor_port	Arduino-Makefile/Arduino.mk	/^        get_monitor_port = $(if $(wildcard $(DEVICE_PATH)),$(firstword $(wildcard $(DEVICE_PATH))),$(error Arduino port $(DEVICE_PATH) not found!))$/;"	m
+get_monitor_port	Arduino-Makefile/Arduino.mk	/^    get_monitor_port = $(DEVICE_PATH)$/;"	m
+group	Arduino-Makefile/bin/lib-detection	/^					group = match.group(1)$/;"	v
+group	Arduino-Makefile/bin/lib-detection	/^				group = match.group(1)$/;"	v
+hour	src/sensors_lib.h	/^        uint8_t hour;                       \/\/ 1-23$/;"	m	struct:TIME_FORMAT_t
+includeRegex	Arduino-Makefile/bin/lib-detection	/^includeRegex = re.compile("(?<=^\\#include\\s\\")(.*)(?=\\.h\\")", re.DOTALL|re.M)$/;"	v
+initLSMAccel	src/sensors_lib.cpp	/^void initLSMAccel(){$/;"	f
+init_io	Arduino-Makefile/examples/BlinkInAVRC/blink.c	/^void init_io(void)$/;"	f
+main	Arduino-Makefile/examples/BlinkInAVRC/blink.c	/^int main(void)$/;"	f
+match	Arduino-Makefile/bin/lib-detection	/^				match = includeRegex.search(line)$/;"	v
+match	Arduino-Makefile/bin/lib-detection	/^			match = includeRegex.search(line)$/;"	v
+measureMagnet	src/sensors_lib.cpp	/^void measureMagnet(){$/;"	f
+minute	src/sensors_lib.h	/^        uint8_t minute;  \/\/ 0-59$/;"	m	struct:TIME_FORMAT_t
+month	src/sensors_lib.h	/^        uint8_t month;                      \/\/ 1-12$/;"	m	struct:TIME_FORMAT_t
+mpuSleep	src/sensors_lib.cpp	/^void mpuSleep(){$/;"	f
+mpuStart	src/sensors_lib.cpp	/^void mpuStart(){$/;"	f
+outputLibs	Arduino-Makefile/bin/lib-detection	/^def outputLibs(libArray):$/;"	f
+parser	Arduino-Makefile/bin/ard-reset-arduino	/^parser = argparse.ArgumentParser(description='Reset an Arduino')$/;"	v
+pyserial_version	Arduino-Makefile/bin/ard-reset-arduino	/^  pyserial_version = 2  # less than 2.3$/;"	v
+pyserial_version	Arduino-Makefile/bin/ard-reset-arduino	/^  pyserial_version = int(serial.VERSION[0])$/;"	v
+pyserial_version	Arduino-Makefile/bin/ard-reset-arduino	/^pyserial_version = None$/;"	v
+runscript_if_exists	Arduino-Makefile/Common.mk	/^runscript_if_exists =                                                          \\$/;"	m
+rwildcard	Arduino-Makefile/Arduino.mk	/^rwildcard=$(foreach d,$(wildcard $1*),$(call rwildcard,$d\/,$2) $(filter $(subst *,%,$2),$d))$/;"	m
+second	src/sensors_lib.h	/^        uint8_t second;  \/\/ 0-59$/;"	m	struct:TIME_FORMAT_t
+sensor_start	src/sensors_lib.h	/^inline void sensor_start(){$/;"	f
+sensors_lib_h	src/sensors_lib.h	3;"	d
+ser	Arduino-Makefile/bin/ard-reset-arduino	/^    ser = serial.Serial(args.port[0], 115200)$/;"	v
+ser	Arduino-Makefile/bin/ard-reset-arduino	/^    ser = serial.Serial(args.port[0], 57600)$/;"	v
+setDateRTC	src/sensors_lib.cpp	/^void setDateRTC( TIME_FORMAT current)$/;"	f
+show_config_info	Arduino-Makefile/Common.mk	/^show_config_info = $(call arduino_output,- $(call space_pad_to,$(2),20) $(1))$/;"	m
+show_config_variable	Arduino-Makefile/Common.mk	/^show_config_variable = $(call show_config_info,$(1) = $($(1)) $(3),$(2))$/;"	m
+show_separator	Arduino-Makefile/Common.mk	/^show_separator = $(call arduino_output,-------------------------)$/;"	m
+space	Arduino-Makefile/Arduino.mk	/^    space :=$/;"	m
+space_pad_to	Arduino-Makefile/Common.mk	/^space_pad_to = $(shell echo $(1) "                                                      " | head -c$(2))$/;"	m
+wrireLSM303reg	src/sensors_lib.h	/^void inline wrireLSM303reg(uint8_t reg, uint8_t data){$/;"	f
+x	src/sensors_lib.h	/^  int16_t x;$/;"	m	struct:S3DVEC_t
+y	src/sensors_lib.h	/^  int16_t y;$/;"	m	struct:S3DVEC_t
+year	src/sensors_lib.h	/^        uint8_t year;$/;"	m	struct:TIME_FORMAT_t
+z	src/sensors_lib.h	/^  int16_t z;$/;"	m	struct:S3DVEC_t

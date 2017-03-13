@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DS1307_I2C_ADDRESS	sensors_lib.h	6;"	d
+LSM303_I2C_ADDRES	sensors_lib.h	11;"	d
+LSM303_I2C_ADDRES_ACCEL	sensors_lib.h	12;"	d
+MPU_6050_I2C_ADDRESS	sensors_lib.h	9;"	d
+S3DVEC	sensors_lib.h	/^} S3DVEC;$/;"	t	typeref:struct:S3DVEC_t
+S3DVEC_t	sensors_lib.h	/^typedef struct S3DVEC_t{$/;"	s
+TIME_FORMAT	sensors_lib.h	/^} TIME_FORMAT;$/;"	t	typeref:struct:TIME_FORMAT_t
+TIME_FORMAT_t	sensors_lib.h	/^typedef struct TIME_FORMAT_t {$/;"	s
+bcdToDec	sensors_lib.h	/^inline uint8_t bcdToDec(uint8_t val)$/;"	f
+dayOfMonth	sensors_lib.h	/^        uint8_t dayOfMonth;                 \/\/ 1-28\/29\/30\/31$/;"	m	struct:TIME_FORMAT_t
+dayOfWeek	sensors_lib.h	/^        uint8_t dayOfWeek;                  \/\/ 1-7$/;"	m	struct:TIME_FORMAT_t
+decToBcd	sensors_lib.h	/^inline uint8_t decToBcd(uint8_t val)$/;"	f
+getAcceleration	sensors_lib.cpp	/^S3DVEC getAcceleration(){$/;"	f
+getDateRTC	sensors_lib.cpp	/^TIME_FORMAT getDateRTC()$/;"	f
+getLSMAccel	sensors_lib.cpp	/^S3DVEC getLSMAccel(){$/;"	f
+getMagnet	sensors_lib.cpp	/^S3DVEC getMagnet(){$/;"	f
+getRotation	sensors_lib.cpp	/^S3DVEC getRotation(){$/;"	f
+getTemperature	sensors_lib.cpp	/^uint16_t getTemperature(){$/;"	f
+hour	sensors_lib.h	/^        uint8_t hour;                       \/\/ 1-23$/;"	m	struct:TIME_FORMAT_t
+measureMagnet	sensors_lib.cpp	/^void measureMagnet(){$/;"	f
+minute	sensors_lib.h	/^        uint8_t minute;  \/\/ 0-59$/;"	m	struct:TIME_FORMAT_t
+month	sensors_lib.h	/^        uint8_t month;                      \/\/ 1-12$/;"	m	struct:TIME_FORMAT_t
+mpuSleep	sensors_lib.cpp	/^void mpuSleep(){$/;"	f
+mpuStart	sensors_lib.cpp	/^void mpuStart(){$/;"	f
+second	sensors_lib.h	/^        uint8_t second;  \/\/ 0-59$/;"	m	struct:TIME_FORMAT_t
+sensor_start	sensors_lib.h	/^inline void sensor_start(){$/;"	f
+sensors_lib_h	sensors_lib.h	3;"	d
+setDateRTC	sensors_lib.cpp	/^void setDateRTC( TIME_FORMAT current)$/;"	f
+x	sensors_lib.h	/^  int16_t x;$/;"	m	struct:S3DVEC_t
+y	sensors_lib.h	/^  int16_t y;$/;"	m	struct:S3DVEC_t
+year	sensors_lib.h	/^        uint8_t year;$/;"	m	struct:TIME_FORMAT_t
+z	sensors_lib.h	/^  int16_t z;$/;"	m	struct:S3DVEC_t
