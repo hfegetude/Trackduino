@@ -43,3 +43,6 @@ Thumbs.db
 *.hex
 *.sizeok
 
+#svn altium#
+############
+.svn
