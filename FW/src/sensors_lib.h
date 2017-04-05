@@ -10,8 +10,9 @@
 
 #define LSM303_I2C_ADDRES 0x1E
 #define LSM303_I2C_ADDRES_ACCEL 0x19
+#define BMP_I2C_ADDRES 0x77
 #include <Wire.h>
-		
+
 
 typedef struct TIME_FORMAT_t {
         uint8_t second;  // 0-59
@@ -42,7 +43,7 @@ inline void sensor_start(){
  // |_| \_\|_| \____|
  //
 
-//Currently not working, Ijust get garbage on the board
+//Currently not working, Ijust get garbage on the board (code works, it's the electrical connection)
 void setDateRTC(TIME_FORMAT current);
 TIME_FORMAT getDateRTC();
 
@@ -90,5 +91,13 @@ void inline writeLSM303reg(uint8_t reg, uint8_t data){
 	Wire.endTransmission(true);
 
 }
+//  ____  __  __ ____  _  ___   ___
+// | __ )|  \/  |  _ \/ |( _ ) / _ \
+// |  _ \| |\/| | |_) | |/ _ \| | | |
+// | |_) | |  | |  __/| | (_) | |_| |
+// |____/|_|  |_|_|   |_|\___/ \___/
+
+uint16_t getPreassure(){
+void measurePressure(){
 
 #endif

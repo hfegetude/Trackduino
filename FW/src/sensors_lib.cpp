@@ -125,7 +125,7 @@ void initLSMAccel(){
 }
 
 S3DVEC getMagnet(){
-        S3DVEC magnetic_field;	
+        S3DVEC magnetic_field;
         Wire.beginTransmission(LSM303_I2C_ADDRES);
         Wire.write(0x83);
         Wire.endTransmission(true);
@@ -143,8 +143,32 @@ S3DVEC getLSMAccel(){
 	Wire.endTransmission(true);
 	Wire.requestFrom(LSM303_I2C_ADDRES_ACCEL, 6, true);
 	movement.x=Wire.read()<<8|Wire.read();
-        movement.y=Wire.read()<<8|Wire.read();
+  movement.y=Wire.read()<<8|Wire.read();
 	movement.z=Wire.read()<<8|Wire.read();
 	return movement;
 }
 
+//  ____  __  __ ____  _  ___   ___
+// | __ )|  \/  |  _ \/ |( _ ) / _ \
+// |  _ \| |\/| | |_) | |/ _ \| | | |
+// | |_) | |  | |  __/| | (_) | |_| |
+// |____/|_|  |_|_|   |_|\___/ \___/
+
+
+void measurePressure(){
+ Wire.beginTransmission(BMP_I2C_ADDRES);
+ Wire.write(0x74);
+ Wire.write( (1 << 5) || (1 << 7 ) ); // 4 oversampling, start Reading
+ delay(450);
+}
+
+uint16_t getPreassure(){
+ Wire.beginTransmission(BMP_I2C_ADDRES);
+ Wire.write(0x76);
+ Wire.endTransmission(true);
+ Wire.requestFrom(BMP_I2C_ADDRES, 2, true);
+ return Wire.read()<<8|Wire.read();
+
+
+
+}
